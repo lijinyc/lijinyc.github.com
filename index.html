@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>bootstrap2-demo</title>
+<Link rel="stylesheet" type="text/css" href="text1.css" />
+<Link rel="stylesheet" href="../bootstrap2/Ubootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" href="../bootstrap2/Ubootstrap/css/bootstrap-responsive.css" />
+</head>
+<body>
+<script src="../bootstrap2/Ubootstrap/js/jquery.js"></script>
+<script src="../bootstrap2/Ubootstrap/js/bootstrap.min.js"></script>
+<br><br>
+ <div class="row">  
+      <div class="span12 offset1">  
+      <!-- 头部 -->                      
+               <div class="navbar">
+                 <div class="navbar-inner">
+                  <a  class="brand" href="#">AKira</a>
+                  <ul class="nav divider-verical">
+                     <li class="active"><a href="#">Dashboard</a></li>
+                     <li><a href="#">Account Settings</a></li>
+                     <li><a href="#">Help</a></li>
+                     <li class="dropdown">
+                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Tours
+                           <span class="caret"></span>
+                         </a>                            
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+	                     <li class="active"><a href="#">H</a></li>
+	                     <li><a href="#">L</a></li>
+	                     <li class="divider"></li>
+	                     <li><a href="#">Z</a></li>
+                     </ul>			    
+                   </li>  
+                 </ul>
+                 <form  class="navbar-search">
+                   <input type="text" class="search-query input-medium" placeholder="Search">                                                                                              
+                 </form>         
+                 <!-- pull-right向右浮动 -->                  
+                 <p class="navbar-text pull-right">@usermarne &emsp;&emsp; Logout</p>
+                 </div>
+             </div>
+            
+      <div class="row">
+       <!-- 左边 -->
+         <div class="span3">
+         <div class="well" style="padding: 8px 0;">
+           <ul class="nav nav-list">
+             <li class="nav-header">AKIRA</li>
+             <li class="active"><a href="#"><i class="icon-home icon-white"></i>Dashboard</a></li>
+             <li><a href="#"><i class="icon-folder-open"></i>Projects</a></li>
+             <li><a href="#"><i class="icon-check"></i>Tasks</a></li>
+             <li><a href="#"><i class="icon-envelope"></i>Messages</a></li>
+             <li><a href="#"><i class="icon-file"></i>Files</a></li>
+             <li><a href="#"><i class="icon-list-alt"></i>Activity</a></li>
+             <li class="nav-header">YOUR ACCOUNT</li>
+             <li><a href="#"><i class="icon-user"></i>Profile</a></li>
+             <li><a href="#"><i class="icon-cog"></i>Settings</a></li>
+             <li class="divider"></li>
+             <li><a href="#"><i class="icon-info-sign"></i>Help</a></li>
+             <li class="nav-header">BONUS TEMPLATES</li>
+             <li><a href="#"><i class="icon-picture"></i>Gallery</a></li>
+             <li><a href="#"><i class="icon-stop"></i>Blank Slate</a></li>
+           </ul>
+           </div>
+         </div>
+         <!-- 右边 第一部分-->
+         <div class="span9">
+			    <h2>Dashboard</h2>
+			   <div class="hero-unit">
+			    <h1>Welcome!</h1>
+			    <p>To get the most out of Akira start with our 3 minute tour.</p>
+			    <p>
+			     <a class="btn btn-primary btn-large">Start Tour</a>
+			     <a class="btn btn-large">No Thanks</a>
+			    </p>
+			   </div>
+			 <!-- 右边第二部分 -->		   
+			<div class="well summary">
+				<div class="row">
+				  <div class="span2"><strong>3</strong></div>
+				  <div class="span2"><strong>27</strong></div>
+				  <div class="span2"><strong>7</strong></div>
+				  <div class="span2"><strong>5</strong></div>
+				</div>
+				<div class="row">
+				  <div class="span2">PROJECTS</div>
+				  <div class="span2">TASKS</div>
+				  <div class="span2">MESSAGES</div>
+				  <div class="span2">FILES</div>
+				</div>
+			</div>	
+			
+			<!-- 右边第三部分-->
+			<h2>Recent Activity</h2>
+			<table class="table table-bordered table-striped">
+			  <tr> 
+			    <th>Project</th>
+			    <th>Client</th>
+			    <th>Type</th>
+			    <th>Date</th>
+			    <th>View</th>
+			  </tr>
+			  <tr>
+			    <td>Nike.com Redesign</td>
+			    <td>Monsters inc</td>
+			    <td>New Task</td>
+			    <td>4 days ago</td>
+			    <td><a href="#" >View</a></td>
+			  </tr>
+			    <tr>
+			    <td>Nike.com Redesign</td>
+			    <td>Monsters inc</td>
+			    <td>New Task</td>
+			    <td>4 days ago</td>
+			    <td><a href="#">View</a></td>
+			  </tr>
+			    <tr>
+			    <td>Nike.com Redesign</td>
+			    <td>Monsters inc</td>
+			    <td>New Task</td>
+			    <td>4 days ago</td>
+			    <td><a href="#">View</a></td>
+			  </tr>
+			    <tr>
+			    <td>Nike.com Redesign</td>
+			    <td>Monsters inc</td>
+			    <td>New Task</td>
+			    <td>4 days ago</td>
+			    <td><a href="#">View</a></td>
+			  </tr>
+			</table>
+			<!-- 底部 -->
+			 <ul class="pager">
+                  <li class="next">
+                    <a href="#">More &rarr;</a>
+                  </li>                
+              </ul>
+            
+              <ul class="pager">                 
+                  <li class="next">
+                    <a href="#">页面模板</a>
+                  </li>
+                   <li class="next">
+                    <a href="#">模板之家</a>
+                  </li>
+                  <li>More Templates- Collect from</li>
+              </ul>	   
+         </div>
+      </div>   
+     </div>
+   </div>
+</body>
